@@ -1,7 +1,6 @@
 # Prompt Engineering for Nepali Named Entity Recognition: A Case Study for Low-Resource Languages
 
-## Abstract
-This repository contains the code and resources used in the paper, *Prompt Engineering for Nepali Named Entity Recognition: A Case Study for Low-Resource Languages*. The study evaluates the effectiveness of prompt engineering for Named Entity Recognition (NER) in Nepali, a low-resource language. Using Meta's quantized LLaMA 3.1 70B model, both zero-shot and few-shot prompting strategies were applied. Results highlight the challenges of prompt-based NER in low-resource languages, demonstrating limited performance compared to transformer models trained with larger datasets.
+This repository contains the code and resources to evaluate the effectiveness of prompt engineering for Named Entity Recognition (NER) in Nepali, a low-resource language. Using Meta's quantized LLaMA 3.1 70B model, both zero-shot and few-shot prompting strategies were applied.
 
 ## Project Structure
 
