@@ -15,7 +15,7 @@ This repository contains the code and resources used in the paper, *Prompt Engin
    - **Few-Shot Prompting**: Example sentences from the training dataset are included to guide the model, selected using a sentence selection strategy prioritizing diversity and completeness.
 
 ### 3. **Model**
-   - **LLaMA 3.1 70B**: A quantized version of Meta's 70B model was used to reduce memory and computational requirements. Experiments were conducted on a system with four NVIDIA RTX 4090 GPUs.
+   - **LLaMA 3.1 70B**: A quantized version of Meta's 70B model from [Ollama](https://ollama.com/library/llama3.1:70b) was used to reduce memory and computational requirements. Experiments were conducted on a system with four NVIDIA RTX 4090 GPUs.
 
 ### 4. **Evaluation**
    - **Metrics**: Precision, Recall, F1-score, and Confusion Matrix were used to evaluate model performance.
