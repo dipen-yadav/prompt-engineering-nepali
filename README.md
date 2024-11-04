@@ -6,7 +6,7 @@ This repository contains the code and resources used in the paper, *Prompt Engin
 ## Project Structure
 
 ### 1. **Dataset Preparation**
-   - **Dataset**: The Nepali NER dataset from \cite{singh2019named} was used, containing sentences labeled with `B-LOC`, `I-LOC`, `B-ORG`, `I-ORG`, `B-PER`, `I-PER`, and `O`.
+   - **Dataset**: The Nepali [EBIQUITY](https://github.com/oya163/nepali-ner) NER dataset was used, containing sentences labeled with `B-LOC`, `I-LOC`, `B-ORG`, `I-ORG`, `B-PER`, `I-PER`, and `O`.
    - **Train-Test Split**: 2796 sentences for training and 493 for testing.
    - **Sentence Selection**: An algorithm was used to select sentences with maximum entity diversity for few-shot prompts.
 
